@@ -7,11 +7,6 @@ from googletrans import Translator
 import locale
 
 # Set up your API keys
-api_id = "10736106"
-api_hash = "38272f374764ba6d3391d900c057f089+"
-bot_token = "7700946819:AAFVikRbd4yvnQs0IVEYzadC8j6OUaSNo4s"
-gemini_api_key = "AIzaSyDF8RtooLQfRY2YVGX_Xsv8ns0wIVk2IOI"
-owner = "5484170325"
 
 # Configure the Gemini AI
 genai.configure(api_key=gemini_api_key)
